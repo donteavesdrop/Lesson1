@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 myCheckBox.setText("text has changed");
-                textViewSt.setText("My number on the list №8 ");
+                textViewSt.setText("My number on the list №10");
             }
         });
     }
