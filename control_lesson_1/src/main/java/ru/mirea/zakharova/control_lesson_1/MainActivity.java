@@ -10,9 +10,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.linear_layout);
-//        ImageView avatarImageView = findViewById(R.id.avatar_imageview);
-//        avatarImageView.setImageResource(R.drawable.avatar);
+//        setContentView(R.layout.linear_layout);
+        setContentView(R.layout.activity_main);
+        ImageView avatarImageView = findViewById(R.id.avatar_imageview);
+        avatarImageView.setImageResource(R.drawable.avatar);
     }
 
 }
